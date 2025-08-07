@@ -1,0 +1,483 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rohit Kumar - Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="nav-logo">
+                <h2>Rohit Kumar</h2>
+            </div>
+            <ul class="nav-menu">
+                <li class="nav-item">
+                    <a href="#home" class="nav-link">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#about" class="nav-link">About</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#experience" class="nav-link">Experience</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#tools" class="nav-link">Tools</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#projects" class="nav-link">Projects</a>
+                </li>
+            </ul>
+            <div class="hamburger">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-container">
+            <div class="hero-content">
+                <h1 class="hero-title">Hi, I'm <span class="highlight">Rohit Kumar</span></h1>
+                <p class="hero-subtitle">Data-Focused Software Engineer</p>
+                <p class="hero-description">I am a data-focused software engineer with a passion for translating data in order to generate more business opportunities.</p>
+                <div class="hero-buttons">
+                    <a href="#projects" class="btn btn-secondary">Projects</a>
+                    <a href="#about" class="btn btn-secondary">About</a>
+                    <a href="#experience" class="btn btn-secondary">Experience</a>
+                    <a href="#tools" class="btn btn-secondary">Tools</a>
+                </div>
+            </div>
+            <div class="hero-image">
+                <div class="profile-circle">
+                    <img src="images/profile-photo.jpg" alt="Rohit Kumar Profile Photo">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Experience Section -->
+    <section id="experience" class="experience">
+        <div class="container">
+            <h2 class="section-title">Experience</h2>
+            <div class="timeline">
+                <div class="timeline-item">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-content">
+                        <div class="company-header">
+                            <div class="company-logo selector-logo">
+                                <img src="images/selector-logo.png" alt="Selector AI Logo">
+                            </div>
+                            <div class="company-info">
+                                <h3>Contract Software Engineer</h3>
+                                <h4>Selector AI, San Jose, CA</h4>
+                                <span class="timeline-date">January 2025 – Current</span>
+                            </div>
+                        </div>
+                        <ul class="experience-details">
+                            <li>Built and maintained ETL pipelines using Python, YAML, and Linux on Kubernetes in GCP, integrating data from Kafka, MongoDB, Prometheus, and Splunk</li>
+                            <li>Automated fresh deployment setup by writing Python and Linux scripts that used REST APIs to populate new client environments, reducing deployment effort by over 60%</li>
+                            <li>Designed automated dashboards, alerts, and reports that enabled root cause analysis for network performance issues, saving clients 5–10 hours per week</li>
+                            <li>Built incident workflow pipeline that queried MongoDB and Prometheus, integrated with ServiceNow to auto-create incidents, improving response times by over 40%</li>
+                        </ul>
+                    </div>
+                </div>
+                
+                <div class="timeline-item">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-content">
+                        <div class="company-header">
+                            <div class="company-logo aarna-logo">
+                                <img src="images/arna-logo.png" alt="Aarna.ml Logo">
+                            </div>
+                            <div class="company-info">
+                                <h3>Part Time Software Consultant</h3>
+                                <h4>Aarna.ml, San Jose, CA</h4>
+                                <span class="timeline-date">Aug 2024 – January 2025</span>
+                            </div>
+                        </div>
+                        <ul class="experience-details">
+                            <li>Built and maintained application features using React, Node.js, SQL, and AWS with LLM prompt engineering</li>
+                            <li>Pitched the product at generative AI conferences</li>
+                        </ul>
+                    </div>
+                </div>
+                
+                <div class="timeline-item">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-content">
+                        <div class="company-header">
+                            <div class="company-logo sofi-logo">
+                                <i class="fas fa-university"></i>
+                            </div>
+                            <div class="company-info">
+                                <h3>Software Engineer</h3>
+                                <h4>SoFi Financial Technologies, Inc., San Francisco, CA</h4>
+                                <span class="timeline-date">June 2023 – July 2024</span>
+                            </div>
+                        </div>
+                        <ul class="experience-details">
+                            <li>Built and maintained ETL pipelines on AWS using Python, SQL, and Linux, with triggers via Lambda functions and cron jobs</li>
+                            <li>Handled on-call production support by triaging CI/CD pipeline alerts and resolving incidents through custom scripts</li>
+                            <li>Resolved 200+ client support tickets, consistently meeting over 95% of SLA response requirements</li>
+                            <li>Developed Linux-based automation script that reduced client onboarding time by several hours per integration</li>
+                        </ul>
+                    </div>
+                </div>
+                
+                <div class="timeline-item">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-content">
+                        <div class="company-header">
+                            <div class="company-logo sofi-logo">
+                                <img src="images/sofi-logo.png" alt="SoFi Logo">
+                            </div>
+                            <div class="company-info">
+                                <h3>Software Engineering Intern</h3>
+                                <h4>SoFi Financial Technologies, Inc., San Francisco, CA</h4>
+                                <span class="timeline-date">May 2022 – Aug 2022</span>
+                            </div>
+                        </div>
+                        <ul class="experience-details">
+                            <li>Designed and implemented data wrangling, clustering, and classification algorithms using pandas, scikit-learn, and NumPy</li>
+                            <li>Developed 10+ analytics dashboards using Matplotlib and NumPy to deliver actionable insights on user behavior and financial trends</li>
+                        </ul>
+                    </div>
+                </div>
+                
+                <div class="timeline-item">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-content">
+                        <div class="company-header">
+                            <div class="company-logo wd-logo">
+                                <i class="fas fa-hdd"></i>
+                            </div>
+                            <div class="company-info">
+                                <h3>Data Analytics Intern</h3>
+                                <h4>Western Digital Inc., San Jose, CA</h4>
+                                <span class="timeline-date">May 2020 – Aug 2020</span>
+                            </div>
+                        </div>
+                        <ul class="experience-details">
+                            <li>Built Python-based data analytics tool that automated statistical analysis, capability studies, and regression tasks for manufacturing engineers</li>
+                            <li>Added integrations with JMP, PowerPoint, and Google Docs to automate reporting workflows, reducing manual documentation time by over 80%</li>
+                        </ul>
+                    </div>
+                </div>
+                
+                <div class="timeline-item">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-content">
+                        <div class="company-header">
+                            <div class="company-logo uiuc-logo">
+                                <i class="fas fa-graduation-cap"></i>
+                            </div>
+                            <div class="company-info">
+                                <h3>Data Analytics Intern</h3>
+                                <h4>University of Illinois, Urbana, IL</h4>
+                                <span class="timeline-date">Sept 2019 – Mar 2020</span>
+                            </div>
+                        </div>
+                        <ul class="experience-details">
+                            <li>Developed 20+ analytics dashboards using R Shiny and Splunk, resulting in 30% improvement in user engagement</li>
+                            <li>Analyzed surveys from study abroad students, resulting in 25% increase in data-driven decision-making for student services</li>
+                        </ul>
+                    </div>
+                </div>
+                
+                <div class="timeline-item">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-content">
+                        <div class="company-header">
+                            <div class="company-logo cisco-logo">
+                                <i class="fas fa-network-wired"></i>
+                            </div>
+                            <div class="company-info">
+                                <h3>Software Engineering Intern</h3>
+                                <h4>Cisco Systems Inc., San Jose, CA</h4>
+                                <span class="timeline-date">May 2019 – Aug 2019</span>
+                            </div>
+                        </div>
+                        <ul class="experience-details">
+                            <li>Designed and validated diverse cloud production environments for IoT Device Data processing</li>
+                            <li>Leveraged AWS, EC2 instances, MQTT, Azure Cloud, and Python scripting</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Tools Section -->
+    <section id="tools" class="tools">
+        <div class="container">
+            <h2 class="section-title">Tools & Technologies</h2>
+            <div class="tools-grid">
+                <div class="tool-item">
+                    <i class="fab fa-python"></i>
+                    <p>Python (NumPy, Pandas, PySpark, Pytest)</p>
+                </div>
+                <div class="tool-item">
+                    <i class="fas fa-database"></i>
+                    <p>SQL</p>
+                </div>
+                <div class="tool-item">
+                    <i class="fab fa-java"></i>
+                    <p>Java</p>
+                </div>
+                <div class="tool-item">
+                    <i class="fab fa-r-project"></i>
+                    <p>R</p>
+                </div>
+                <div class="tool-item">
+                    <i class="fas fa-code"></i>
+                    <p>C++</p>
+                </div>
+                <div class="tool-item">
+                    <i class="fab fa-aws"></i>
+                    <p>AWS</p>
+                </div>
+                <div class="tool-item">
+                    <i class="fab fa-microsoft"></i>
+                    <p>Azure</p>
+                </div>
+                <div class="tool-item">
+                    <i class="fab fa-google"></i>
+                    <p>GCP</p>
+                </div>
+                <div class="tool-item">
+                    <i class="fas fa-snowflake"></i>
+                    <p>Snowflake</p>
+                </div>
+                <div class="tool-item">
+                    <i class="fas fa-cogs"></i>
+                    <p>DBT</p>
+                </div>
+                <div class="tool-item">
+                    <i class="fas fa-wind"></i>
+                    <p>Airflow</p>
+                </div>
+                <div class="tool-item">
+                    <i class="fab fa-aws"></i>
+                    <p>AWS Glue</p>
+                </div>
+                <div class="tool-item">
+                    <i class="fab fa-docker"></i>
+                    <p>Docker</p>
+                </div>
+                <div class="tool-item">
+                    <i class="fab fa-git-alt"></i>
+                    <p>Git/Github</p>
+                </div>
+                <div class="tool-item">
+                    <i class="fas fa-dharmachakra"></i>
+                    <p>Kubernetes</p>
+                </div>
+                <div class="tool-item">
+                    <i class="fab fa-linux"></i>
+                    <p>Linux/Unix Scripting</p>
+                </div>
+                <div class="tool-item">
+                    <i class="fas fa-infinity"></i>
+                    <p>CI/CD</p>
+                </div>
+                <div class="tool-item">
+                    <i class="fab fa-react"></i>
+                    <p>React</p>
+                </div>
+                <div class="tool-item">
+                    <i class="fab fa-node-js"></i>
+                    <p>Node.js</p>
+                </div>
+                <div class="tool-item">
+                    <i class="fas fa-fire"></i>
+                    <p>PyTorch</p>
+                </div>
+                <div class="tool-item">
+                    <i class="fas fa-brain"></i>
+                    <p>SciKitLearn</p>
+                </div>
+                <div class="tool-item">
+                    <i class="fas fa-network-wired"></i>
+                    <p>TensorFlow</p>
+                </div>
+                <div class="tool-item">
+                    <i class="fas fa-calculator"></i>
+                    <p>SciPy</p>
+                </div>
+                <div class="tool-item">
+                    <i class="fas fa-layer-group"></i>
+                    <p>Keras</p>
+                </div>
+                <div class="tool-item">
+                    <i class="fas fa-exchange-alt"></i>
+                    <p>ELT/ETL Pipelines</p>
+                </div>
+                <div class="tool-item">
+                    <i class="fas fa-warehouse"></i>
+                    <p>Data Warehousing</p>
+                </div>
+                <div class="tool-item">
+                    <i class="fas fa-chart-line"></i>
+                    <p>Data Modeling & Analytics</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="projects">
+        <div class="container">
+            <h2 class="section-title">Personal Projects</h2>
+            <div class="projects-grid">
+                <div class="project-card">
+                    <div class="project-image">
+                        <i class="fas fa-home"></i>
+                    </div>
+                    <div class="project-info">
+                        <h3>HopeSF</h3>
+                        <p>A platform to help San Francisco's unhoused community access real-time food, shelter, and hygiene resources. Features Mapbox integration for interactive maps and a Gemini chatbot for natural language queries.</p>
+                        <div class="project-tools">
+                            <span class="tool-tag">Mapbox</span>
+                            <span class="tool-tag">Gemini AI</span>
+                            <span class="tool-tag">JavaScript</span>
+                            <span class="tool-tag">Netlify</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="https://github.com/rohitk2/HopeSF" class="project-link"><i class="fab fa-github"></i> GitHub</a>
+                            <a href="https://hopesf2025.netlify.app/" class="project-link"><i class="fas fa-external-link-alt"></i> Live Demo</a>
+                            <a href="https://www.youtube.com/watch?v=hIOVENJanqg" class="project-link"><i class="fas fa-play"></i> Video</a>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="project-card">
+                    <div class="project-image">
+                        <i class="fas fa-flask"></i>
+                    </div>
+                    <div class="project-info">
+                        <h3>MCP Research Lab Assistant</h3>
+                        <p>An AI-powered Lab Research Assistant with voice commands using Whisper, real-time data capture & safety monitoring, and agents powered by CrewAI, Gemini, and Claude.</p>
+                        <div class="project-tools">
+                            <span class="tool-tag">Python</span>
+                            <span class="tool-tag">Streamlit</span>
+                            <span class="tool-tag">CrewAI</span>
+                            <span class="tool-tag">Whisper</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="https://github.com/shreepatel0527/weavehacks-2025" class="project-link"><i class="fab fa-github"></i> GitHub</a>
+                            <a href="https://www.youtube.com/watch?v=CXWsXadKCXU" class="project-link"><i class="fas fa-play"></i> Video</a>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="project-card">
+                    <div class="project-image">
+                        <i class="fas fa-basketball-ball"></i>
+                    </div>
+                    <div class="project-info">
+                        <h3>NBA Gemini Encyclopedia</h3>
+                        <p>An NBA player information system that takes a player name and uses Gemini API to provide comprehensive game statistics, player statistics, and career descriptions.</p>
+                        <div class="project-tools">
+                            <span class="tool-tag">Gemini API</span>
+                            <span class="tool-tag">Python</span>
+                            <span class="tool-tag">REST API</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="https://github.com/rohitk2/NBA-Gemini-Encyclopedia?tab=readme-ov-file" class="project-link"><i class="fab fa-github"></i> GitHub</a>
+                            <a href="https://www.youtube.com/watch?v=S_XX8MFUH-I" class="project-link"><i class="fas fa-play"></i> Video</a>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="project-card">
+                    <div class="project-image">
+                        <i class="fas fa-database"></i>
+                    </div>
+                    <div class="project-info">
+                        <h3>STEDI Human Balance Data Lake</h3>
+                        <p>A full data lake architecture on AWS supporting machine learning models for predicting human balance. Features end-to-end ETL pipeline from raw data ingestion to ML-ready outputs.</p>
+                        <div class="project-tools">
+                            <span class="tool-tag">AWS</span>
+                            <span class="tool-tag">S3</span>
+                            <span class="tool-tag">Glue</span>
+                            <span class="tool-tag">Athena</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="https://github.com/rohitk2/STEDI-Human-Balance-Data-Lake" class="project-link"><i class="fab fa-github"></i> GitHub</a>
+                            <a href="https://www.youtube.com/watch?v=4jDL1xFlDj0" class="project-link"><i class="fas fa-play"></i> Video</a>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="project-card">
+                    <div class="project-image">
+                        <i class="fas fa-music"></i>
+                    </div>
+                    <div class="project-info">
+                        <h3>Song Data Warehouse</h3>
+                        <p>A cloud-based data warehouse pipeline using Amazon Redshift and S3 to model and analyze user activity data for a music streaming platform. Features star-schema dimensional modeling.</p>
+                        <div class="project-tools">
+                            <span class="tool-tag">Amazon Redshift</span>
+                            <span class="tool-tag">S3</span>
+                            <span class="tool-tag">SQL</span>
+                            <span class="tool-tag">Python</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="https://github.com/rohitk2/Songs-Data-Warehouse" class="project-link"><i class="fab fa-github"></i> GitHub</a>
+                            <a href="https://www.youtube.com/watch?v=21P51GxqyZY" class="project-link"><i class="fas fa-play"></i> Video</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+        <!-- About Section -->
+    <section id="about" class="about">
+        <div class="container">
+            <h2 class="section-title">About Me</h2>
+            <div class="about-content">
+                <div class="about-text">
+                    <p>I'm a passionate software engineer by day and real estate mogul by night! I love creating digital solutions that make a difference, but my interests extend far beyond coding.</p>
+                    
+                    <p><strong>🍽️ Food Enthusiast:</strong> I'm a true food lover who can't resist exploring new restaurants and cuisines. As a kid, you couldn't stop me from raiding the fridge every hour - and honestly, not much has changed! I'm always on the hunt for the next great meal.</p>
+                    
+                    <p><strong>💪 Fitness Fanatic:</strong> I've always needed to stay active. From being that fidgety kid who couldn't sit still, to playing multiple sports in middle school, running cross country and track through high school and early college. Now I regularly hit the gym, go hiking with friends on weekends, and I've recently become very interested in CrossFit.</p>
+                    
+                    <p><strong>🏠 Real Estate Investor:</strong> I have sky-high ambitions when it comes to building my real estate portfolio. I regularly attend real estate events, open houses, and home buyer seminars. You'll often find me browsing Zillow or reading real estate books. My goal is to build a string of rental properties and create lasting wealth through real estate.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-info">
+                    <h3>Rohit Kumar</h3>
+                    <p>Software Engineer | Data Enthusiast | Data Solutions Expert</p>
+                </div>
+                <div class="footer-links">
+                    <a href="mailto:rohit@example.com"><i class="fas fa-envelope"></i></a>
+                    <a href="https://linkedin.com/in/rohitkumar"><i class="fab fa-linkedin"></i></a>
+                    <a href="https://github.com/rohitkumar"><i class="fab fa-github"></i></a>
+                    <a href="https://twitter.com/rohitkumar"><i class="fab fa-twitter"></i></a>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2024 Rohit Kumar. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
