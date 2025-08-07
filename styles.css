@@ -617,7 +617,7 @@ body {
 
 /* Projects Section */
 .projects {
-    padding: 100px 0;
+    padding: 50px 0;
     background: linear-gradient(135deg, #4a7c59 0%, #2d5016 100%); /* Pine to forest green */
     color: white;
 }
