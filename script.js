@@ -200,9 +200,9 @@ document.addEventListener('DOMContentLoaded', () => {
     if (typeElement) {
         new TypeWriter(typeElement, [
             'Software Engineer',
-            'Data Analyst',
-            'Business Intelligence Developer',
-            'Data Solutions Architect'
+            'Data Enthusiast',
+            'Problem Solver',
+            'Tech Enthusiast'
         ], 2000);
     }
 });
