@@ -50,12 +50,13 @@ body {
 
 /* Hero Section with cooler gradient */
 .hero {
-    min-height: 100vh;
+    min-height: 70vh;
     display: flex;
     align-items: center;
     background: linear-gradient(135deg, var(--gradient-start) 0%, var(--gradient-end) 100%);
     color: white;
-    padding-top: 70px;
+    padding-top: 30px;
+    padding-bottom: 20px;
 }
 
 .highlight {
@@ -269,7 +270,7 @@ body {
     padding: 0 20px;
     display: grid;
     grid-template-columns: 1fr 1fr;
-    gap: 4rem;
+    gap: 3rem;
     align-items: center;
 }
 
@@ -342,8 +343,8 @@ body {
 }
 
 .profile-circle {
-    width: 300px;
-    height: 300px;
+    width: 250px;
+    height: 250px;
     border-radius: 15px;
     background: rgba(255, 255, 255, 0.1);
     display: flex;
