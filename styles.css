@@ -618,15 +618,17 @@ body {
 /* Projects Section */
 .projects {
     padding: 100px 0;
-    background: white;
+    background: linear-gradient(135deg, #4a7c59 0%, #2d5016 100%); /* Pine to forest green */
+    color: white;
 }
 
 .projects-grid {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
     gap: 2rem;
-    max-width: 1200px;
-    margin: 0 auto;
+    max-width: none;
+    margin: 0;
+    padding: 0 20px;
 }
 
 .project-card {
@@ -721,6 +723,7 @@ body {
     .projects-grid {
         grid-template-columns: 1fr;
         gap: 1.5rem;
+        padding: 0 10px;
     }
     
     .project-card {
@@ -738,7 +741,17 @@ body {
 
 @media (min-width: 1200px) {
     .projects-grid {
-        grid-template-columns: repeat(3, 1fr);
+        grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+        gap: 2.5rem;
+        padding: 0 40px;
+    }
+}
+
+@media (min-width: 1600px) {
+    .projects-grid {
+        grid-template-columns: repeat(auto-fit, minmax(450px, 1fr));
+        gap: 3rem;
+        padding: 0 60px;
     }
 }
 
