@@ -618,8 +618,8 @@ body {
 /* Projects Section */
 .projects {
     padding: 50px 0;
-    background: linear-gradient(135deg, #4a7c59 0%, #2d5016 100%); /* Pine to forest green */
-    color: white;
+    background: white;
+    color: #333;
 }
 
 .projects-grid {
