@@ -186,10 +186,41 @@ body {
     background: var(--primary-color);
 }
 
+.navbar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background: rgba(255, 255, 255, 0.95);
+    backdrop-filter: blur(10px);
+    z-index: 1000;
+    transition: all 0.3s ease;
+    height: 105px;
+}
+
+.nav-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 40px;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav-logo {
+    flex-shrink: 0;
+}
+
 .nav-menu {
     display: flex;
     list-style: none;
-    gap: 2rem;
+    gap: 4rem;
+    margin: 0;
+    padding: 0;
+    justify-content: center;
+    flex: 1;
+    margin-left: 2rem;
 }
 
 .nav-link {
